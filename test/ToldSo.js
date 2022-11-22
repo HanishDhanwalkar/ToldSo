@@ -19,8 +19,8 @@ describe('ToldSo', function () {
   }
  
 
-  describe("Create and read posts", function () {
-    it("Should create a post", async function () {
+  describe("Create and read posts", function ) {
+    it("Should create a post", async function ) {
       const {ToldSo} = await loadFixture(ToldSoFixture);
       const titile ='Hello World'
       const body ='This is my first post'
@@ -31,7 +31,7 @@ describe('ToldSo', function () {
       console.log(owner.address)
 
 
-    });
+    };
 
     /*
 
